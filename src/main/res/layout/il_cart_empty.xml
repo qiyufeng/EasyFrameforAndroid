@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_null"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8F8"
+    >
+
+    <ImageView
+        android:id="@+id/im_null"
+        android:layout_width="125dp"
+        android:layout_height="103dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/car_null"
+        />
+
+    <TextView
+        android:id="@+id/tv_null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/im_null"
+        android:layout_centerHorizontal="true"
+        android:text="购物车空空如也~"
+        android:layout_marginTop="@dimen/dp20"
+        android:textColor="@color/alpha_70_black"
+        android:textSize="@dimen/sp14"
+        />
+
+    <Button
+        android:id="@+id/bt_null"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/tv_null"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp10"
+        android:background="#E53740"
+        android:text="去逛逛"
+        android:textColor="@color/white"
+        />
+
+
+</RelativeLayout>

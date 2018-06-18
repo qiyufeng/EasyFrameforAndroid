@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/common_load_more_footer_progress"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/common_load_more_padding"
+        android:layout_marginTop="@dimen/common_load_more_padding"
+        android:indeterminate="true"
+        android:indeterminateOnly="false"
+        android:src="@drawable/chick"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="#999999"
+        android:text="加载中..." >
+    </TextView>
+
+</LinearLayout>

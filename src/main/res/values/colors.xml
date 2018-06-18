@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C1F23</color>
+    <color name="colorPrimaryDark">#1C1F23</color>
+    <color name="colorAccent">#0086F5</color>
+
+    <color name="default_image_background">#ffeeeeee</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+
+    <!--button-->
+    <color name="btn_normal">#FDB508</color>
+    <color name="btn_pressed">#C48A19</color>
+    <color name="btn_focused">#F39700</color>
+    <color name="btn_disable">#D0C7B1</color>
+    <color name="btn_disable_focused">#F2C478</color>
+    <color name="btn_disable_normal">#F7D27C</color>
+    <!--button_text-->
+    <color name="btn_normal_text">#FFFFFF</color>
+    <color name="btn_enable_text">#858482</color>
+
+    <color name="base_bg">#EBEBEB</color>
+    <color name="base_msg_color">#ff999999</color>
+
+</resources>
